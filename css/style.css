@@ -1,0 +1,107 @@
+/* TODO: Make it awesome */
+body {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin: 0%;
+  padding: 0%;
+}
+
+h1 {
+  font-size: 70px;
+  display: flex;
+  justify-content: center;
+  color: aliceblue;
+  background-color: hwb(0 0% 100%);
+  padding-top: 30px;
+  padding-bottom: 30px;
+  font-weight: bold;
+}
+
+nav {
+  font-size: 20px;
+  background-color: hsl(16, 95%, 60%);
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+nav > ul {
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+  padding: 20px;
+  text-decoration: none;
+}
+
+nav > ul > li > a {
+  color: black;
+  text-decoration: none;
+  font-family: Georgia, Times, sans-serif;
+}
+
+nav > ul > li a:hover {
+  color: blue;
+  transform: scale(1.2);
+}
+
+section > img {
+  width: 350px;
+  height: 350px;
+  cursor: pointer;
+}
+
+section {
+  padding: 2% 1% 2% 1%;
+}
+
+footer {
+  font-family: "Poetsen One", sans-serif;
+}
+
+main section {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 50px;
+  margin-inline: 30px;
+  border-radius: 25px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+main section:hover {
+  cursor: not-allowed;
+}
+main section img {
+  width: 300px;
+  height: 300px;
+  border-radius: 20px;
+}
+main section img:hover {
+  width: 240px;
+  height: 240px;
+  cursor: pointer;
+  transition-duration: 0.5s;
+  transition-timing-function: ease-out;
+}
+main #chart:hover {
+  cursor: crosshair;
+}
+
+main {
+  background-color: #ede84f;
+  margin-left: 40px;
+  margin-right: 40px;
+  border-radius: 20px;
+  margin-top: 40px;
+  color: black;
+}
+
+footer {
+  background-color: #bcbcbc;
+  text-align: center;
+  margin-top: 40px;
+  font-size: 20px;
+}
+
+footer > p {
+  color: rgb(36, 37, 34);
+  padding: 60px;
+  font-family: Times, sans-serif;
+}
